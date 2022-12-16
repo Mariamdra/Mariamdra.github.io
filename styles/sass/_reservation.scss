@@ -1,0 +1,113 @@
+#reservation{
+  width: 65%;
+  margin: 60px auto 60px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 50%;
+
+  .open-time{
+    background: black;
+    
+    div{
+
+      width: 90%;
+      height: 90%;
+      margin: 15px auto;
+      border: 1px dashed $color2;
+      align-items: center;
+      text-align: center;
+      padding: 15px 0 20px;
+
+      span{
+        font-family: $font1;
+        color: $color3;
+        font-size: 1.6rem;
+  
+      }
+  
+      h2{
+        text-transform: uppercase;
+        color: $color2;
+        font-family: $font2;
+        font-size: 1.7rem;
+      }
+      img{
+        padding-top: 15px ;
+      }
+
+      h3{
+        text-transform: uppercase;
+        color: $color3;
+        font-family: $font2;
+        font-size: 1.5rem;
+        padding-top: 15px;
+        padding-bottom: 10px;
+      }
+
+      p{
+        color: $color2;
+        font-family: $font3;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .reservation{
+    background: $color2;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  span{
+    font-family: $font1;
+    color: $color3;
+    font-size: 1.6rem;
+
+  }
+
+  h2{
+    text-transform: uppercase;
+    color: black;
+    font-family: $font2;
+    font-size: 1.7rem;
+  }
+  img{
+    padding:15px 0;
+  }
+
+  form
+  {
+    div{
+    display: grid;
+    grid-template-columns: 30% 33% 33%;
+
+      input, select{
+        margin: 15px;
+        border: none;
+        height: 40px;
+        text-align: left;
+        align-items: center;
+        padding:10px 0 10px;
+        border-bottom: 1px solid $color1;
+  
+        
+      }
+    }
+      input[type="submit"]{
+        background: $color1;
+        color: $color2;
+        text-align: center;
+        border-radius: 50px;
+        text-transform: uppercase;
+        font-family: $font3;
+        width:50%;
+        height:40px;
+        margin: 20px auto;
+        cursor: pointer;
+
+      }
+  }
+
+}

@@ -1,0 +1,63 @@
+#home{
+  height: 540px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: $color2;
+  margin-bottom: 300px;
+
+  .left-part{
+    padding: 20px 0 0;
+    margin: 15px;
+    border: 1px dashed $color3;
+    text-align: center;
+    align-items: center;
+
+    span{
+      font-family: $font1;
+      color: $color3;
+      font-size: 2rem;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+
+    h2{
+      text-transform: uppercase;
+      color: black;
+      font-family: $font2;
+      font-size: 2rem; 
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    img{
+      margin:20px 0 20px
+    }
+
+    p{
+      color: black;
+      font-family: $font3;
+    }
+
+    #photo-chef{
+      border: 50px;
+      border-radius: 150px;
+    }
+    
+    h3{
+      font-size: 20px;
+    }
+
+    h4{
+      color: black;
+      font-family: $font3;
+      font-size: 1rem;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+  }
+
+  .right-part{
+    background: url(/img/store-01.jpg) center/cover;
+  }
+}
